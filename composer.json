@@ -1,0 +1,28 @@
+{
+    "name": "fleapse/yii2-lab1",
+    "description": "Lab1",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nikita Pozdnyakov",
+            "email": "nikita-poz21@yandex.ru"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0",
+        "php": ">=5.4.0",
+        "yiisoft/yii2": "~2.0.14",
+        "yiisoft/yii2-bootstrap": "~2.0.0",
+        "yiisoft/yii2-swiftmailer": "~2.0.0 || ~2.1.0",
+        "dektrium/yii2-user": "^0.9.14",
+        "dektrium/yii2-rbac": "1.0.0-alpha@dev",
+        "bizley/migration": "^3.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "fleapse\\lab1\\": ""
+        }
+    }
+}
